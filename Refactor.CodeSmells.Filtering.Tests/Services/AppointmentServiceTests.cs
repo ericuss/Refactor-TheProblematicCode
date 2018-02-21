@@ -13,7 +13,7 @@ namespace Refactor.CodeSmells.Filtering.Tests.Services
 
         public AppointmentServiceTests()
         {
-            this._appointmentService = new AppointmentService(new AppointmentRepository());
+            this._appointmentService = new AppointmentServiceV4(new AppointmentRepository());
         }
 
         [TestMethod]
